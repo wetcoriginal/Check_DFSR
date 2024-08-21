@@ -8,6 +8,8 @@ $destinationServer = "IIS-02"
 $replicatedFolderPath = "C:\temp"
 $testFileName = "dfs_test_file.txt"
 $testFileContent = "Test de réplication DFS"
+#
+#
 $testFilePath = Join-Path $replicatedFolderPath $testFileName
 
 # Création du fichier de test sur le serveur source
